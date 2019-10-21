@@ -431,7 +431,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.0092666e-36, y: 1.009742e-28, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -465,6 +465,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2187449669427467095, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3583927446293882072, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
+        type: 3}
+      propertyPath: m_Name
+      value: Sphere002
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
         type: 3}
@@ -570,16 +580,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CastShadows
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2187449669427467095, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3583927446293882072, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
-        type: 3}
-      propertyPath: m_Name
-      value: Sphere002
       objectReference: {fileID: 0}
     - target: {fileID: -8952913592523335413, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
         type: 3}
@@ -830,7 +830,7 @@ PrefabInstance:
     - target: {fileID: 8296172669100807833, guid: 5e9e851c0e142814dac026a256ba2ac0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2187449669343550663, guid: 5e9e851c0e142814dac026a256ba2ac0,
         type: 3}
@@ -1000,7 +1000,26 @@ MonoBehaviour:
   redPotion: {fileID: 1974395750}
   bluePotion: {fileID: 1744198222}
   greenPotion: {fileID: 241511312}
-  sleeveColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  sleeveMaterial: {fileID: 2100000, guid: 71abc2f5e937e414ba8ecc8d04ba681c, type: 2}
+  potionsDrunk: 0
+  isFading: 0
+  canDrink: 1
+  fadeStart: 0
+  fadeTime: 1.2
+  startColor:
+    serializedVersion: 2
+    rgba: 0
+  resultColor:
+    serializedVersion: 2
+    rgba: 0
+  counter: 0
+  maxCounter: 1
+  sleeveColor:
+    serializedVersion: 2
+    rgba: 16777216
+  redness: 0
+  blueness: 0
+  greenness: 0
 --- !u!1 &1744198222 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
@@ -1061,6 +1080,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2187449669427467095, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3583927446293882072, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
+        type: 3}
+      propertyPath: m_Name
+      value: Sphere002
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
         type: 3}
@@ -1166,16 +1195,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CastShadows
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2187449669427467095, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3583927446293882072, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
-        type: 3}
-      propertyPath: m_Name
-      value: Sphere002
       objectReference: {fileID: 0}
     - target: {fileID: -8952913592523335413, guid: 74bb6dba1b21b1943915a13d05e8e1f0,
         type: 3}
