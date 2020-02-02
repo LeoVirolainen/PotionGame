@@ -404,17 +404,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: ad275abe709e3c44c9ad12cd710ba482,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: ad275abe709e3c44c9ad12cd710ba482,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: ad275abe709e3c44c9ad12cd710ba482,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.505
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: ad275abe709e3c44c9ad12cd710ba482,
         type: 3}
@@ -583,6 +583,8 @@ GameObject:
   m_Component:
   - component: {fileID: 555028850}
   - component: {fileID: 555028851}
+  - component: {fileID: 555028853}
+  - component: {fileID: 555028852}
   m_Layer: 0
   m_Name: SwordHolder
   m_TagString: Untagged
@@ -619,6 +621,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fPC: {fileID: 1767436232}
   fPSController: {fileID: 1448616842}
+--- !u!95 &555028852
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555028849}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cb1bbd3872471e943b992991cdedf8b1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &555028853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555028849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f36300c2fd2974b468790ebfdc671e66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 555028852}
 --- !u!1001 &564700844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -928,7 +962,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 6.74e-43, y: 2.2081526e-27, z: 6.74e-43, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1603,8 +1637,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1624258972}
-  - component: {fileID: 1624258974}
-  - component: {fileID: 1624258973}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -1627,38 +1659,6 @@ Transform:
   m_Father: {fileID: 555028850}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -77.524, y: 0, z: 80.716}
---- !u!114 &1624258973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624258971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f36300c2fd2974b468790ebfdc671e66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 1624258974}
---- !u!95 &1624258974
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624258971}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cb1bbd3872471e943b992991cdedf8b1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1740954300 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 291704020392677013, guid: 5e9e851c0e142814dac026a256ba2ac0,

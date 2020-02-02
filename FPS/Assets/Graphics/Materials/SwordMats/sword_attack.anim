@@ -164,12 +164,12 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.98333335
         value: {x: -77.524, y: 0, z: 80.716}
-        inSlope: {x: 890.7875, y: 5110.636, z: -5099.5366}
-        outSlope: {x: 890.7875, y: 5110.636, z: -5099.5366}
+        inSlope: {x: -28.67106, y: 108.93891, z: -5099.5366}
+        outSlope: {x: -28.67106, y: -13.689829, z: -37.058033}
         tangentMode: 0
         weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        inWeight: {x: 0.33333334, y: 1, z: 0.33333334}
+        outWeight: {x: 1, y: 1, z: 1}
       - serializedVersion: 3
         time: 1
         value: {x: -77.524, y: 0, z: 80.716}
@@ -441,12 +441,12 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.98333335
         value: -77.524
-        inSlope: 890.7875
-        outSlope: 890.7875
-        tangentMode: 34
+        inSlope: -28.67106
+        outSlope: -28.67106
+        tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.33333334
+        outWeight: 1
       - serializedVersion: 3
         time: 1
         value: -77.524
@@ -613,12 +613,12 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.98333335
         value: 0
-        inSlope: 5110.636
-        outSlope: 5110.636
-        tangentMode: 34
+        inSlope: 108.93891
+        outSlope: -13.689829
+        tangentMode: 1
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 1
+        outWeight: 1
       - serializedVersion: 3
         time: 1
         value: 0
@@ -786,11 +786,11 @@ AnimationClip:
         time: 0.98333335
         value: 80.716
         inSlope: -5099.5366
-        outSlope: -5099.5366
-        tangentMode: 34
+        outSlope: -37.058033
+        tangentMode: 1
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.33333334
+        outWeight: 1
       - serializedVersion: 3
         time: 1
         value: 80.716

@@ -8,16 +8,16 @@ public class drink : MonoBehaviour {
 
     void Update() {
         if (Input.GetKeyDown(KeyCode.Mouse1)) {
-            anim.SetBool("drink", true);
+            anim.Play("drink");
         }
-        if (Input.GetKeyUp(KeyCode.Mouse1)) {
-            anim.SetBool("drink", false);
-        }
+      //  if (Input.GetKeyUp(KeyCode.Mouse1)) {
+   //         anim.SetBool("drink", false);
+   //     }
         if (Input.GetKeyDown(KeyCode.Mouse0)) {
-            anim.SetBool("attack", true);
+            anim.Play("attack");
         }
-        if (Input.GetKeyUp(KeyCode.Mouse0)) {
-            anim.SetBool("attack", false);
-        }
+   //     if (Input.GetKeyUp(KeyCode.Mouse0)) {
+   //         anim.SetBool("attack", false);
+   //     }
     }
 }
