@@ -67,7 +67,7 @@ public class potionHolderController : MonoBehaviour {
         }
 
         //DRINKING
-        if (Input.GetKeyDown(KeyCode.Mouse0) && isFading == false) {
+        if (Input.GetKeyDown(KeyCode.Mouse1) && isFading == false) {
             if (redPotion.activeSelf == true) {
                 redness += 85;
                 potionsDrunk += 1;

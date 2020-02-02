@@ -5,19 +5,20 @@ using UnityEngine;
 public class drink : MonoBehaviour {
 
     public Animator anim;
+    public bool altAtk = false;
 
     void Update() {
         if (Input.GetKeyDown(KeyCode.Mouse1)) {
             anim.Play("drink");
         }
-      //  if (Input.GetKeyUp(KeyCode.Mouse1)) {
-   //         anim.SetBool("drink", false);
-   //     }
-        if (Input.GetKeyDown(KeyCode.Mouse0)) {
-            anim.Play("attack");
+
+        if (Input.GetKeyDown(KeyCode.Mouse0) && (altAtk == false)) {
+            anim.Play("attack0");
+            altAtk = true;
         }
-   //     if (Input.GetKeyUp(KeyCode.Mouse0)) {
-   //         anim.SetBool("attack", false);
-   //     }
+        else if (Input.GetKeyDown(KeyCode.Mouse0) && (altAtk == true)) {
+            anim.Play("attack1");
+            altAtk = false;
+        }
     }
 }
